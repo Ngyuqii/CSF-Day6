@@ -1,5 +1,9 @@
 <p>Thank you! <br>
     You have adopted {{num}} turtle(s).
 </p>
-<img src="https://cdn.24.co.za/files/Cms/General/d/570/687ae302b441406e977b42591b9a3a37.jpg" alt="rude turtle" height="350px">
 
+<div *ngIf="!!name" >
+    Name(s): <div *ngFor="let n of name">{{n}}</div>
+</div>
+
+<img src="https://cdn.24.co.za/files/Cms/General/d/570/687ae302b441406e977b42591b9a3a37.jpg" alt="rude turtle" height="350px">

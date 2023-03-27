@@ -12,8 +12,14 @@
 <div class="box-it">
     <p>Would you like to adopt a turtle?</p>
     <div>
-        <!-- Create a button that goes to turtle component using routerLink -->
-        <button type="button" [routerLink]="['/adoptaturtle']">Adopt</button>
+        <!-- Create a button that goes to turtle component by activating parameterized route -->
+        <button type="button" [routerLink]="['/adoptaturtle', 1]">Adopt 1</button>
+        &nbsp;
+        <button type="button" [routerLink]="['/adoptaturtle', 2]">Adopt 2</button>
+        &nbsp;
+        <button type="button" [routerLink]="['/adoptaturtle', 3]">Adopt 3</button>
+        <br><br>
+        <button type="button" [routerLink]="['/adoptaturtle']">I want to adopt >3 turtles</button>
     </div>
 </div>
 
