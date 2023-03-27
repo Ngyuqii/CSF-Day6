@@ -1,0 +1,20 @@
+<div class="box-it">
+    <p>Click on the below to view animals.</p>
+    <div>
+        <!-- Create a button that goes to whale component using routerLink -->
+        <button type="button" [routerLink]="['/whale']">Whale</button>
+        &nbsp;
+        <!-- Create a button that goes to shark component using onclick -->
+        <button type="button" (click)="sharkRoute()">Shark</button>
+    </div>
+</div>
+
+<div class="box-it">
+    <p>Would you like to adopt a turtle?</p>
+    <div>
+        <!-- Create a button that goes to turtle component using routerLink -->
+        <button type="button" [routerLink]="['/adoptaturtle']">Adopt</button>
+    </div>
+</div>
+
+
