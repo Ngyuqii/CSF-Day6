@@ -14,7 +14,7 @@ import { ProductPriceComponent } from './components/product-price/product-price.
     ProductComponent,
     ProductDetailsComponent,
     ProductSpecsComponent,
-    ProductPriceComponent
+    ProductPriceComponent,
   ],
   imports: [
     BrowserModule,
