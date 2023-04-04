@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './shark.component.html',
   styleUrls: ['./shark.component.css']
 })
+
 export class SharkComponent {
 
 }

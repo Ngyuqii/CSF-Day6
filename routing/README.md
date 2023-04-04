@@ -6,4 +6,4 @@
 - Use ActivatedRoute to
     1. Retrieve the route parameter
     2. Activate parameterized route
-    3. Passed a parameter as query parameter 
+    3. Pass a parameter as query parameter 

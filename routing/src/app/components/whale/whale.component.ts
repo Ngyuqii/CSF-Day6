@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './whale.component.html',
   styleUrls: ['./whale.component.css']
 })
+
 export class WhaleComponent {
 
 }
